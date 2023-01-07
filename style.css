@@ -40,13 +40,15 @@ button {
 .main {
   flex: 1.5 1 auto;
   width: 60vw;
-  height: 100%;
+  height: 100vh;
   display: grid;
   grid-template-rows: 1.2fr 1.5fr 1.2fr;
 }
 
 .main__upper {
-  padding: 150px 100px 50px 50px;
+  /* padding: 150px 100px 50px 50px; */
+  padding: 100px 100px 50px 50px;
+
   background-color: #040303;
 }
 
